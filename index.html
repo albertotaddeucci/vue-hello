@@ -12,12 +12,15 @@
     <!-- ------------------------------- vue js -------------------------------- -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <div id="app">
-      
-      <h1>
-            {{ message }}
-      </h1>
+      <div class="container">
 
-      <img :src="img" alt="">
+        <h1>
+              {{ message }}
+        </h1>
+  
+        <img :src="img" alt="">
+
+      </div>
       
 
 
@@ -29,7 +32,7 @@
       createApp({
         data() {
           return {
-            message: 'Ciao a tutti!',
+            message: 'Go Bulls!',
             img: "https://www.nj.com/resizer/PO18likc9jH3ZAoqu52rndJ2_MI=/800x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/7NAN2HMWP5CTJOKFMS5TG7SNQE.jpg"
             
           }

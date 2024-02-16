@@ -5,6 +5,25 @@
 }
 
 h1{
-    margin: 2em;
+    padding: 1em;
+    
     font-family: sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color: #F3EDC8;
+}
+
+.container{
+    margin: 4em;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-inline: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(125,10,10,1) 80%);
+}
+
+img{
+    width: 100%;
+    display: block;
+    padding: 1em;
 }
